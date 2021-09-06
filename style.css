@@ -12,7 +12,7 @@ body, h1, h2, h4
     
 }
 
-.container, body, .hadsakills {
+.container, body, .hadsakills, main, .redesSociais, .rodape{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ body, h1, h2, h4
 }
 
 .hadsakills{
-    margin: 20px;
+    margin: 10px;
     flex-direction: row;
 
 }.ferramentas{
@@ -73,7 +73,10 @@ body, h1, h2, h4
     
 }
 
-
+ul {
+    display: flex;
+    flex-direction: column;
+}
 
 ul li span{
     color: #E4E4E4;
@@ -92,3 +95,16 @@ li {
      
 }
 
+
+.rede {
+    margin: 6px;
+    height: 45px;
+    width: 100%;
+}
+.redesSociais {
+    margin-top: 5px;
+    width: 100%;
+}
+.rodape {
+    width: 100%;
+}
