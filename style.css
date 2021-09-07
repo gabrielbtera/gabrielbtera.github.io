@@ -196,7 +196,7 @@ li {
        
     }#imgEu{
     
-        height:125px;
+        height:110px;
       
     }
     .titulo{
@@ -214,11 +214,16 @@ li {
         border: none;
         margin-bottom: 2px;
     }.descricao{
-        font-size: 14px;
+        font-size: 12px;
     }
     .rede{
         font-weight: normal;
-    font-size: 10px;
+        font-size: 15px;
+    }
+    .stacks{
+        margin: 5px;
+        width: 70px;
+        height: 25px;
     }
 }
 
