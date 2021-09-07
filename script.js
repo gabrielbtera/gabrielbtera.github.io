@@ -23,4 +23,56 @@ lis[1].style.color = cores.intermediario
 lis[2].style.color = cores.aprendendo
 
 
+var element = document.getElementsByClassName('stacks');
+
+
+for(let i = 0; i < element.length; i ++){
+    element[i].addEventListener('mouseover', function() {
+      
+            if( window.innerWidth > 535){
+                const tamanho = "20px"
+            
+                if(window.getComputedStyle(element[i]).backgroundColor === "rgb(170, 146, 139)"){
+                    lis[2].style.fontSize = "24px";
+                    lis[1].style.fontSize = tamanho
+                    lis[0].style.fontSize = tamanho
+        
+                }else{
+                    lis[2].style.fontSize = tamanho;
+                }
+                if(window.getComputedStyle(element[i]).backgroundColor === "rgb(203, 203, 183)"){
+                    lis[1].style.fontSize = "24px";
+                    lis[0].style.fontSize = tamanho
+                    lis[2].style.fontSize = tamanho
+                }else {
+                    lis[1].style.fontSize = tamanho;
+                }
+                if(window.getComputedStyle(element[i]).backgroundColor === "rgb(241, 241, 238)"){
+                    lis[0].style.fontSize = "24px";
+                    lis[1].style.fontSize = tamanho
+                    lis[2].style.fontSize = tamanho
+                }else {
+                    lis[0].style.fontSize = tamanho;
+                }
+
+                
+                    
+                        
+                    
+            }else{
+                for(let i = 0; i < lis.length;i++){
+                    lis[i].style.fontSize = "12px"
+                }
+            }
+            
+        
+        
+        
+       
+      }, false);
+      
+
+   
+}
+
 

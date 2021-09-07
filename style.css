@@ -32,7 +32,7 @@ body, h1, h2, h4
 
 #imgEu{
     
-    height: 200px;
+    height: 190px;
     width: auto;
 }
 
@@ -74,12 +74,14 @@ body, h1, h2, h4
 .legendas {
     text-align: left;
     margin-left: 50px;
+
     
 }
 
 ul {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 
 ul li span{
@@ -93,7 +95,6 @@ ul li span{
 li {
     
     list-style-type: square;
-    
     font-size: 20px;
     height: 100%;
      
@@ -104,8 +105,8 @@ li {
     margin: 5px;
     height: 45px;
     width: 100%;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: normal;
+    font-size: 16px;
     border: none;
     color: #E4E4E4;
     transition:all 0.3s ease;
@@ -143,5 +144,90 @@ li {
 
 .insta {
     background-color: #FF6DA2;
+    
+}
+
+
+
+@media screen and (max-width: 535px) {
+    .hadsakills {
+        flex-direction: column;
+        margin: 5px;
+        
+        
+    }
+    ul{
+        flex-direction: row;
+         
+        margin: 0;
+        padding: 0;
+        
+        
+       
+    }
+    ul li span{
+       
+        font-size: 10px; text-align: start;
+        
+        
+    
+    }
+    li {
+        
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+        font-size: 12px;
+        
+    
+        
+        
+        
+        
+    }
+    .legendas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin: 0;
+      
+       
+    }#imgEu{
+    
+        height:125px;
+      
+    }
+    .titulo{
+        font-weight:normal;
+        font-size: 20px;
+    }.subtitulo{
+    
+        font-size: 17px;
+        
+    
+    }hr {
+        margin: 0;
+        background-color: #E4E4E4;
+        height: 0.5px;
+        border: none;
+        margin-bottom: 2px;
+    }.descricao{
+        font-size: 14px;
+    }
+    .rede{
+        font-weight: normal;
+    font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .stacks{
+        margin: 5px;
+        width: 70px;
+        height: 30px;
+        
+    }
     
 }
