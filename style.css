@@ -3,13 +3,17 @@
 
 body, h1, h2, h4
 {
-    margin: 0;
+   margin: 0;
     padding: 0;
     background-color: #444440;
     color: #E4E4E4;
     font-family:   'Roboto', sans-serif;
     font-weight: lighter;
     
+}body{
+
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .container, body, .hadsakills, main, .redesSociais, .rodape{
@@ -89,7 +93,7 @@ ul li span{
 li {
     
     list-style-type: square;
-    color: black;
+    
     font-size: 20px;
     height: 100%;
      
@@ -97,9 +101,27 @@ li {
 
 
 .rede {
-    margin: 6px;
+    margin: 5px;
     height: 45px;
     width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: #E4E4E4;
+    transition:all 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    
+}.rede:hover{
+    
+    opacity: 0.7;
+    
+}.rede:active{
+    opacity: 1;
 }
 .redesSociais {
     margin-top: 5px;
@@ -107,4 +129,19 @@ li {
 }
 .rodape {
     width: 100%;
+}
+
+.likedin {
+    background-color: #6F9AB9;
+
+}
+
+.git {
+    background-color: #E4E4E4;
+    color:#444440 ;
+}
+
+.insta {
+    background-color: #FF6DA2;
+    
 }
