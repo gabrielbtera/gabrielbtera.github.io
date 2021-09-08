@@ -16,6 +16,14 @@ body, h1, h2, h4
     margin-right: 8px;
 }
 
+hr {
+    margin: 0;
+    background-color: #E4E4E4;
+    height: 0.5px;
+    border: none;
+    margin-bottom: 2px;
+}
+
 .container, body, .hadsakills, main, .redesSociais, .rodape{
     display: flex;
     justify-content: center;
@@ -208,12 +216,6 @@ li {
         font-size: 17px;
         
     
-    }hr {
-        margin: 0;
-        background-color: #E4E4E4;
-        height: 0.5px;
-        border: none;
-        margin-bottom: 2px;
     }.descricao{
         font-size: 12px;
     }
